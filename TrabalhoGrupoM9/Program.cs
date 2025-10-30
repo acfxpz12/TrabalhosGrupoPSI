@@ -20,7 +20,7 @@ namespace TrabalhoGrupoM9
                 Console.Write($"Número {i + 1}: ");
                 while (!int.TryParse(Console.ReadLine(), out numeros[i]))
                 {
-                    Console.WriteLine("Por favor, insira um número válido.");
+                    Console.WriteLine("Insira um número valido:");
                     Console.Write($"Número {i + 1}: ");
                 }
             }
