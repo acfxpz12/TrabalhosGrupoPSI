@@ -37,6 +37,9 @@ namespace TrabalhoGrupoM9
 
             // Exibir o maior número
             Console.WriteLine($"\nO maior número digitado foi: {maior}");
+            Console.WriteLine("Maior valor {0} e índice {1}.", maximo, indice);
+            Console.WriteLine("****************");
+
             Console.Write("a fechar o programa...");
             Console.ReadLine();
         }
